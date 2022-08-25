@@ -1,0 +1,642 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.cebian1 {
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: auto;
+    background-color: rgb(247, 243, 240);
+    padding: 0 30px 50px 30px;
+    border-radius: 10px;
+
+}
+
+.cebian1 img {
+    position: relative;
+    width: 100px;
+    top: 30px;
+    left: 45px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.cebian1 p {
+    position: relative;
+    top: 40px;
+    left: 70px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.cebian1 ul {
+    position: relative;
+    top: 60px;
+    margin-bottom: 50px;
+
+}
+
+.cebian1 ul li {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cebian1 ul li:hover {
+    background-color: rgb(201, 253, 253);
+    cursor: pointer;
+}
+
+.cebian2 {
+    position: absolute;
+    top: 100px;
+    right: 15px;
+    width: 81%;
+    background-color: rgb(243, 241, 237);
+    margin-bottom: 300px;
+    border-radius: 10px;
+    padding: 80px 0 0 70px;
+    text-align: center;
+}
+
+.xueming {
+    position: fixed;
+    top: 100px;
+    right: 15px;
+    width: 37%;
+    height: 80px;
+    background-color: rgb(243, 241, 237);
+    border-radius: 10px;
+    padding: 30px 10px 0 30px;
+    z-index: 99;
+}
+
+.xueming_bg {
+    position: fixed;
+    top: 90px;
+    right: 15px;
+    width: 40%;
+    height: 130px;
+    background-color: rgb(0, 0, 0);
+    z-index: 98;
+}
+
+
+.cebian_d {
+    position: absolute;
+    top: 220px;
+    right: 15px;
+    width: 37%;
+    background-color: rgb(243, 241, 237);
+    margin-bottom: 300px;
+    border-radius: 10px;
+    padding: 30px 10px 0 30px;
+    text-align: center;
+}
+
+.cebian_draw {
+    position: absolute;
+    top: 100px;
+    right: 15px;
+    width: 37%;
+    background-color: rgb(243, 241, 237);
+    margin-bottom: 300px;
+    border-radius: 10px;
+    padding: 30px 10px 0 30px;
+    text-align: center;
+}
+
+.xm1 {
+    font-size: 25px;
+}
+
+.xm2 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.xm3 {
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.xm4 {
+    margin-top: 5px;
+    display: flex;
+    padding: 0 20px 0 0;
+}
+
+.cebian2_p {
+    position: absolute;
+    top: 100px;
+    right: 15px;
+    width: 70%;
+    background-color: rgb(243, 241, 237);
+    margin-bottom: 300px;
+    border-radius: 10px;
+    padding: 80px 80px 100px 200px;
+
+}
+
+.cebian_key {
+    position: absolute;
+    top: 100px;
+    right: 15px;
+    width: 75%;
+    background-color: rgb(243, 241, 237);
+    margin-bottom: 300px;
+    border-radius: 10px;
+    padding: 80px 80px 80px 100px;
+
+}
+
+.key {
+    display: flex;
+
+}
+
+.k1 {
+    width: 25%
+}
+
+
+.head {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #e4e4e4;
+    height: 80px;
+    font-size: 35px;
+    line-height: 2.2;
+    text-align: center;
+    z-index: 99;
+}
+
+.head2 {
+    width: 100%;
+    position: fixed;
+    top: 80px;
+    background-color: rgb(0, 0, 0);
+    height: 19px;
+    z-index: 99;
+}
+
+
+
+.head a {
+    left: 300px;
+}
+
+.cebian2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.cebian2 ul li {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    margin-bottom: 80px;
+    background-size: 150px;
+}
+
+.cebian_key ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.cebian_key ul li {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 10px 27px 10px 10px;
+    margin-bottom: 80px;
+    background-size: 150px;
+    border-radius: 10px;
+}
+
+.cebian_key ul li:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.cebian_d ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+}
+
+.cebian_draw ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+}
+
+.cebian_d ul li {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 20px 10px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.cebian_draw ul li {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 20px 10px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.cebian_d ul li:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.cebian_d ul li p {
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.cebian_draw ul li p {
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+
+.cebian2 ul li p {
+    position: relative;
+    top: 155px;
+    font-size: 18px;
+}
+
+.cebian_key ul li p {
+    position: relative;
+    top: 155px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.biaoti {
+    font-size: 30px;
+}
+
+.xiaobiaoti {
+    font-size: 22px;
+    margin: 10px;
+}
+
+.qita1 {
+    margin: 15px 15px;
+}
+
+.qita1 button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #aaaaaa;
+    font-size: 15px;
+}
+
+.cebian2_p button {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    background-color: #e4e4e4;
+    border: 2px solid rgb(133, 133, 133);
+}
+
+
+.tupian {
+    width: 40%;
+}
+
+.peifang1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 800px;
+}
+
+.jinbandie_peifang1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 1000px;
+}
+
+.jinbandie_peifang2 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 1300px;
+}
+
+.peifang2 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 1300px;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px 5px;
+    text-align: center;
+
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    margin-top: 100px;
+    display: flex;
+    padding-left: 80px;
+}
+
+.content2 ul li {
+    line-height: 1.5;
+}
+
+.suoJin {
+    text-indent: 2em;
+}
+
+.xueMing {
+    margin-bottom: 15px;
+}
+
+.suoxie {
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.drawing {
+    display: flex;
+}
+
+.drawing img {
+    width: auto;
+    height: 800px;
+}
+
+.content_d ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.content_d {
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+
+}
+
+.h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.h2 {
+    text-indent: 2rem;
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+
+
+}
+
+.h3 {
+
+    text-indent: 4rem;
+    margin-top: 8px;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.h4 {
+    text-indent: 6rem;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.h5 {
+    text-indent: 8rem;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+
+#placeholder {
+    width: 100%
+}
+
+.des0 {
+    display: flex
+}
+
+#des {
+    color: rgb(210, 222, 233);
+    top: 100px;
+    font-size: 15px;
+    z-index: 99;
+    margin-left: auto
+}
+
+#des2 {
+    color: rgb(210, 222, 233);
+    top: 100px;
+    font-size: 15px;
+    z-index: 99;
+    margin-left: auto;
+}
+
+.imgzd {
+    width: 800px;
+    position: fixed;
+    top: 100px;
+    left: 300px;
+}
+
+
+.d001 {
+    background-image: url(../img/zaomu1.jpg);
+}
+
+.d002 {
+    background-image: url(../img/zaomu2.jpg);
+}
+
+.d003 {
+    background-image: url(../img/zaomu3.jpg);
+}
+
+.d004 {
+    background-image: url(../img/nieChongMu-1.jpg);
+    background-position: center center;
+}
+
+.d005 {
+    background-image: url(../img/nieChongMu-2.jpg);
+}
+
+.d006 {
+    background-image: url(../img/nieChongMu-3.jpg);
+}
+
+.d007 {
+    background-image: url(../img/tangLingMu-1.jpg);
+    background-position: center center;
+
+}
+
+.d008 {
+    background-image: url(../img/tangLingMu-2.jpg);
+}
+
+.d009 {
+    background-image: url(../img/tangLingMu-3.jpg);
+}
+
+.d010 {
+    background-image: url(../img/tangLingMu-4.jpg);
+}
+
+
+.t001 {
+    background-image: url(../img/tang/tangke_kxlbt-1.jpg);
+}
+
+.t002 {
+    background-image: url(../img/tang/tangke_kxlbt-2.jpg);
+}
+
+.t003 {
+    background-image: url(../img/tang/tangke_kxlbt-3.jpg);
+}
+
+.t004 {
+    background-image: url(../img/tang/tangke_kxlbt-4.jpg);
+}
+
+.t005 {
+    background-image: url(../img/tang/tangke_kxlbt-5.jpg);
+}
+
+.t006 {
+    background-image: url(../img/tang/tangke_kxlbt-6.jpg);
+}
+
+.t007 {
+    background-image: url(../img/tang/tangke_kxlbt-7.jpg);
+}
+
+.t008 {
+    background-image: url(../img/tang/tangke_kxlbt-8.jpg);
+}
+
+.t009 {
+    background-image: url(../img/tang/tangke_kxlbt-9.jpg);
+}
+
+.t010 {
+    background-image: url(../img/tang/tangke_kxlbt-10.jpg);
+}
+
+.t011 {
+    background-image: url(../img/tang/tangke_kxlbt-11.jpg);
+}
+
+.t012 {
+    background-image: url(../img/tang/tangke_kxlbt-12.jpg);
+}
+
+.t013 {
+    background-image: url(../img/tang/tangke_kxlbt-13.jpg);
+}
+
+.t014 {
+    background-image: url(../img/tang/tangke_kxlbt-14.jpg);
+}
+
+.t015 {
+    background-image: url(../img/tang/tangke_kxlbt-15.jpg);
+}
+
+.t016 {
+    background-image: url(../img/tang/tangke_kxlbt-16.jpg);
+}
+
+.t017 {
+    background-image: url(../img/tang/tangke_kxlbt-17.jpg);
+}
+
+.t018 {
+    background-image: url(../img/tang/tangke_kxlbt-18.jpg);
+}
+
+.t019 {
+    background-image: url(../img/tang/tangke_kxlbt-19.jpg);
+}
+
+.t020 {
+    background-image: url(../img/tang/tangke_kxlbt-20.jpg);
+}
+
+.t021 {
+    background-image: url(../img/tang/yjskyt-1.jpg);
+}
+
+.t022 {
+    background-image: url(../img/tang/yjskyt-2.jpg);
+}
+
+.t023 {
+    background-image: url(../img/tang/yjskyt-3.jpg);
+}
+
+.t024 {
+    background-image: url(../img/tang/yjskyt-4.jpg);
+}

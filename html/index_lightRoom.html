@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <script type="text/javascript" src="../js/index.js"></script>
+</head>
+
+<body>
+    <div class="head">昆虫图鉴</div>
+    <div class="head2"></div>
+    <div class="cebian1">
+        <img src="../img/logo.jpg">
+        <p>尧彩新</p>
+        <ul>
+            <li onclick="index()">首页</li>
+            <li onclick="index_drawing()">绘画作品</li>
+            <li onclick="index_breed()">昆虫饲养</li>
+            <li onclick="index_tujian()">昆虫图鉴</li>
+            <li onclick="index_fenLei()">分类知识</li>
+
+
+            <li onclick="index_duShuBiJi()">读书笔记</li>
+            <li onclick="index_other()">其他</li>
+
+
+        </ul>
+    </div>
+    <div class="cebian2_p">
+        <p class="h1">《Lightroom 4高手之道数码摄影后期处理全解析》</p>
+        <p class="h2">图库模块</p>
+        <p class="h3"></p>
+
+        <p class="h2">书籍模块</p>
+        <p class="h3"></p>
+
+        <p class="h2">地图模块</p>
+        <p class="h3"></p>
+
+        <p class="h2">修改照片模块</p>
+        <p class="h3"></p>
+
+        <p class="h2">打印模块</p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h1">快捷键</p>
+        <p class="h2">esc</p>
+        <p class="h3">返回前一个视图</p>
+
+        <p class="h2">enter</p>
+        <p class="h3">放大视图或1:1视图</p>
+
+        <p class="h2">g</p>
+        <p class="h3">网格模式</p>
+
+        <p class="h2">c</p>
+        <p class="h3">比较模式</p>
+
+        <p class="h2">n</p>
+        <p class="h3">筛选模式</p>
+
+        <p class="h2">f</p>
+        <p class="h3">照片全屏</p>
+
+        <p class="h2">ctrl+shift+i</p>
+        <p class="h3">导入</p>
+
+        <p class="h1">目录</p>
+        <p class="h2">目录很重要，lr将修改信息存在目录文件夹里，并不修改照片本身</p>
+        <p class="h3">目录文件包括一个.lrcat文件和一个预览文件(.lrdata</p>
+        <p class="h2">Ctrl+0/文件-打开目录</p>
+        <p class="h3">打开目录</p>
+        <p class="h2">注意备份目录文件</p>
+        <p class="h2">lr会新建一个backups的文件夹自动备份.lrcat文件</p>
+        <p class="h3">记得定期清理backups文件</p>
+        <p class="h2">.lrdata文件</p>
+        <p class="h2">预览文件，存储了预览信息</p>
+        <p class="h2"></p>
+
+
+        <p class="h1">照片格式</p>
+        <p class="h2">dng</p>
+        <p class="h3"></p>
+
+        <p class="h2">XMP文件</p>
+        <p class="h3"></p>
+
+        <p class="h1">模块</p>
+        <p class="h2">Ctrl+alt+1/2/3/4/5/6/7</p>
+        <p class="h3">切换不同的模块</p>
+
+        <p class="h2">图库模块 1</p>
+        <p class="h3"></p>
+
+        <p class="h2">j</p>
+        <p class="h3">网格模式下视图切换</p>
+
+        <p class="h2">i</p>
+        <p class="h3">放大视图下模式切换</p>
+
+        <p class="h2">tab</p>
+        <p class="h3">显示/隐藏左右面板</p>
+
+        <p class="h2">shift+tab</p>
+        <p class="h3">显示、隐藏4个面板</p>
+
+        <p class="h2">f</p>
+        <p class="h3">照片全屏</p>
+
+        <p class="h2">ctrl+'+/-'</p>
+        <p class="h3">放大、缩小照片</p>
+
+        <p class="h2">c</p>
+        <p class="h3">比较视图</p>
+
+        <p class="h2">ctrl+backspace</p>
+        <p class="h3">删除标记为拒绝旗标的照片</p>
+
+        <p class="h2">p</p>
+        <p class="h3">添加旗标</p>
+
+        <p class="h2">x</p>
+        <p class="h3">标记删除旗标</p>
+
+        <p class="h2">u</p>
+        <p class="h3">移去旗标</p>
+
+        <p class="h2">1-5</p>
+        <p class="h3">设置星标</p>
+
+        <p class="h2">6-9</p>
+        <p class="h3">设置色标</p>
+
+        <p class="h2">ctrl+k</p>
+        <p class="h3">设置关键词</p>
+
+        <p class="h2">属性过滤器</p>
+        <p class="h3">依据旗标、星标、色标查找</p>
+
+        <p class="h2">文本过滤器</p>
+        <p class="h3">依据文件名、关键词查找</p>
+
+        <p class="h2">ctrl+l</p>
+        <p class="h3">打开、关闭过滤器</p>
+
+        <p class="h2">d</p>
+        <p class="h3">修改照片模块</p>
+
+        <p class="h2">\</p>
+        <p class="h3">切换修改前后</p>
+
+        <p class="h2">y</p>
+        <p class="h3">修改前后对比</p>
+
+        <p class="h1">流程</p>
+        <p class="h2">相机校准</p>
+        <p class="h3"></p>
+
+        <p class="h2">镜头校准</p>
+        <p class="h3">ctrl+6</p>
+        <p class="h4">镜头校准面板</p>
+
+        <p class="h2">q</p>
+        <p class="h3">污点去除工具</p>
+
+        <p class="h2">r</p>
+        <p class="h3">重新裁剪</p>
+
+        <p class="h2">o</p>
+        <p class="h3">切换裁剪参考线</p>
+
+        <p class="h2">ctrl+[/]</p>
+        <p class="h3">90度旋转照片</p>
+
+        <p class="h2">使用raw格式通常需要把照片拍得亮一点</p>
+        <p class="h3">曝光不足通常比高光溢出区域更好处理</p>
+
+        <p class="h2">清晰度</p>
+        <p class="h3">清晰度主要影响中间调的对比度</p>
+        <p class="h3">清晰度可以寻找对比明显的边缘</p>
+
+        <p class="h2">鲜艳度</p>
+        <p class="h3">增加鲜艳度时，原本饱和度低的区域将获得明显的增强；
+            原本饱和度较高的区域获得的增强较弱。
+        </p>
+
+        <p class="h2">不要在刚开始调整时就增加饱和度，要在亮度和对比度完成后进行</p>
+        <p class="h3"></p>
+
+        <p class="h2">ctrl+2</p>
+        <p class="h3">曲线面板</p>
+
+        <p class="h2">ctrl+3</p>
+        <p class="h3">hsl面板</p>
+
+        <p class="h2">目标调整工具</p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+
+
+
+
+
+        <p class="h1"></p>
+        <p class="h2"></p>
+        <p class="h3"></p>
+        <p class="h4"></p>
+    </div>
+
+</body>
+
+</html>

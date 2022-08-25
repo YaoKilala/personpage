@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <script type="text/javascript" src="../js/index.js"></script>
+</head>
+
+<body>
+    <div class="head">JavaScript DOM 编程艺术</div>
+    <div class="head2"></div>
+    <div class="cebian1">
+        <img src="../img/logo.jpg">
+        <p>尧彩新</p>
+        <ul>
+            <li onclick="index()">首页</li>
+            <li onclick="index_drawing()">绘画作品</li>
+            <li onclick="index_breed()">昆虫饲养</li>
+            <li onclick="index_tujian()">昆虫图鉴</li>
+            <li onclick="index_fenLei()">分类知识</li>
+
+            <li onclick="index_duShuBiJi()">读书笔记</li>
+            <li onclick="index_other()">其他</li>
+        </ul>
+    </div>
+    <div class="cebian2_p">
+
+        <p class="h1">第一章 JavaScript简史</p>
+        <p class="h2">1.1 </p>
+        <p class="h2">1.2 </p>
+        <p class="h3"></p>
+        <p class="h4"></p>
+        <p class="h3"></p>
+        <p class="h3"></p>
+        <p class="h2">1.3 </p>
+        <p class="h2">1.4 </p>
+
+
+        <p class="h3"></p>
+        <p class="h4"></p>
+
+
+        <p class="h1">第二章 JavaScript语法</p>
+        <p class="h2">2.1 准备工作</p>
+        <p class="h2">2.2 语法</p>
+        <p class="h2">2.3 操作</p>
+        <p class="h2">2.4 条件语句</p>
+        <p class="h2">2.5 循环语句</p>
+        <p class="h2">2.6 函数</p>
+        <p class="h2">2.7 对象object 48</p>
+        <p class="h3">属性和方法都用“点”语法来访问</p>
+        <p class="h3">内建对象 native object 49</p>
+        <p class="h4">数组</p>
+        <p class="h4">Math对象</p>
+        <p class="h4">Date对象</p>
+        <p class="h3">宿主对象 host object: 由浏览器提供的预定义对象</p>
+        <p class="h4">Form</p>
+        <p class="h4">Image</p>
+        <p class="h4">Element</p>
+        <p class="h4">Document</p>
+        <p class="h3"></p>
+        <p class="h2">2.8 小结</p>
+
+
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+        <p class="h4"></p>
+
+
+        <p class="h1">第三章 DOM 51</p>
+        <p class="h2">3.1 文档 “D” document</p>
+        <p class="h2">3.2 对象 “O” object</p>
+        <p class="h3">document对象的主要功能是处理网页内容</p>
+        <p class="h2">3.3 模型 “M” model</p>
+        <p class="h2">3.4 节点 node 56</p>
+        <p class="h3">文档是由节点构成的集合</p>
+        <p class="h3">元素节点 element node</p>
+        <p class="h4">标签的名字就是元素的名字</p>
+        <p class="h4">元素可以包含其他元素</p>
+        <p class="h3">文本节点 text node </p>
+        <p class="h4">p元素</p>
+        <p class="h3">属性节点 attribute node</p>
+        <p class="h4">属性节点用于对元素做出更具体的描述</p>
+        <p class="h4">title属性即为属性节点，属性节点被包含在元素节点内</p>
+        <p class="h3">CSS</p>
+
+        <p class="h3">3种获取元素节点的dom方法</p>
+        <p class="h4">通过ID</p>
+        <p class="h5">document.getElementById("id值")</p>
+        <p class="h5">文档中每一个元素都是对象object</p>
+        <p class="h5">id值必须放在引号里</p>
+        <p class="h5">函数名后面必须跟一对圆括号</p>
+        <p class="h4">通过标签名</p>
+        <p class="h5">document.getElementByTagName("tag")</p>
+        <p class="h5">返回一个数组</p>
+        <p class="h4">通过类名</p>
+        <p class="h5">document.getElementByClassName("")</p>
+        <p class="h2">3.5 获取和设置属性 65</p>
+        <p class="h3">getAttribute</p>
+        <p class="h4">获取属性值</p>
+        <p class="h4">getAttribute方法不属于document对象，所以不能通过
+            document对象调用。它只能通过元素节点对象调用。</p>
+        <p class="h3">setAttribute</p>
+        <p class="h4">它允许我们对属性节点的值做出修改</p>
+        <p class="h4">setAttribute也只能用于元素节点</p>
+
+
+
+        <p class="h3"></p>
+        <p class="h4"></p>
+        <p class="h5"></p>
+
+
+        <p class="h1">第四章 案例研究：JavaScript图片库</p>
+        <p class="h2">4.1 标记</p>
+        <p class="h2">4.2 JavaScript</p>
+        <p class="h2">4.3 应用这个JavaScript函数</p>
+        <p class="h3">事件处理函数：在特定事件发生时调用特定的js代码</p>
+        <p class="h4">onmouseover</p>
+        <p class="h5">鼠标指针悬停
+            在某个元素上时触发一个动作</p>
+        <p class="h4">onmouseout</p>
+        <p class="h5">鼠标指针离开某个
+            元素时触发一个动作</p>
+        <p class="h4">onclick</p>
+        <p class="h5">用户点击某个
+            链接时触发一个动作</p>
+        <p class="h4">“this”关键词</p>
+        <p class="h5">这个对象</p>
+        <p class="h4"></p>
+        <p class="h5"></p>
+        <p class="h2">4.4 对这个函数进行扩展</p>
+        <p class="h2">4.5 小结</p>
+
+
+
+        <p class="h1">第五章 最佳实践</p>
+        <p class="h2">5.1 过去的错误</p>
+        <p class="h2">5.2 平稳退化</p>
+        <p class="h3">确保网页在没有JavaScript的情况下也能正常工作。</p>
+        <p class="h2">5.3 向CSS学习</p>
+        <p class="h2">5.4 分离JavaScript</p>
+        <p class="h2">5.5 向后兼容</p>
+        <p class="h2">5.6 性能考虑</p>
+        <p class="h2">5.7 小结</p>
+
+        <p class="h1">第六章 案例研究：图片库改进版</p>
+        <p class="h2">6.1 快速回顾</p>
+        <p class="h2">6.2 它支持平稳退化吗</p>
+        <p class="h2">6.3 它的JavaScript与HTML标记是分离的吗</p>
+        <p class="h2">6.3.1 添加事件处理函数</p>
+        <p class="h2">6.3.2 共享onload事件</p>
+        <p class="h2">6.4 不要做太多的假设</p>
+        <p class="h2">6.5 优化</p>
+        <p class="h2">6.6 键盘访问</p>
+        <p class="h2">6.7 把JavaScript和CSS结合起来</p>
+        <p class="h2">6.8 DOM core和HTML-DOM </p>
+        <p class="h2">6.9 小结</p>
+
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+        <p class="h4"></p>
+        <p class="h5"></p>
+
+
+        <p class="h1">第七章 动态创建标记</p>
+        <p class="h2">7.1 一些传统方法</p>
+        <p class="h2">7.2 DOM方法</p>
+        <p class="h3">createElement方法</p>
+        <p class="h4">document.createElement("p");</p>
+        <p class="h3">appendChild方法</p>
+        <p class="h4">var para = document.createElement("p");
+        <p class="h4">var testdiv = document.getElementById("testdiv");</p>
+        <p class="h4">testdiv.appendChild(para);</p>
+
+
+        </p>
+        <p class="h3">createTextNode方法</p>
+
+        <p class="h4">var txt = document.createTextNode("Hello world");</p>
+        <p class="h4">para.appendChild(txt);</p>
+
+
+        <p class="h2">7.3 重回图片库</p>
+        <p class="h2">7.4 Ajax</p>
+        <p class="h2">7.5 小结</p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+        <p class="h4"></p>
+
+        <p class="h1">第八章 充实文档的内容</p>
+        <p class="h2">8.1 不应该做什么</p>
+        <p class="h2">8.2 把“不可见”变成“可见”</p>
+        <p class="h2">8.3 内容</p>
+        <p class="h2">8.4 显示“缩略语列表”</p>
+        <p class="h2">8.5 显示“文献来源连接表”</p>
+        <p class="h2">8.6 显示“快捷键清单”</p>
+        <p class="h2">8.7 检索和添加信息</p>
+        <p class="h2">8.8 小结</p>
+        <p class="h2"></p>
+
+
+        <p class="h3"></p>
+        <p class="h4"></p>
+
+        <p class="h1">第九章 CSS-DOM</p>
+        <p class="h2">9.1 三位一体的网页</p>
+        <p class="h2">9.2 style属性</p>
+        <p class="h2">9.3 何时该用DOM脚本设置样式</p>
+        <p class="h2">9.4 className属性</p>
+        <p class="h2">9.5 小结</p>
+
+
+        <p class="h3"></p>
+        <p class="h4"></p>
+
+        <p class="h1">第十章 用JavaScript实现动画效果</p>
+        <p class="h2">10.1 动画基础知识</p>
+        <p class="h2">10.2 实用的动画</p>
+        <p class="h2">10.3 小结</p>
+
+
+
+        <p class="h3"></p>
+        <p class="h4"></p>
+
+        <p class="h1">第十一章 HTML5</p>
+        <p class="h2">11.1 H5简介</p>
+        <p class="h2">11.2 来自朋友的忠告</p>
+        <p class="h2">11.3 几个示例</p>
+
+        <p class="h1">第十二章 综合示例</p>
+        <p class="h2">12.1 </p>
+        <p class="h2">12.2 </p>
+        <p class="h2">12.3 </p>
+
+
+
+
+
+
+
+
+        </ul>
+    </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
