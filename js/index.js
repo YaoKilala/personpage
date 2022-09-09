@@ -54,6 +54,10 @@ function index_price() {
     window.open("./index_price.html")
 }//询价页面
 
+function index_list() {
+    window.open("./index_list.html")
+}//各类名录
+
 function zhuanli() {
     window.open("./other_zhuanli.html")
 }//专利页面
@@ -82,6 +86,36 @@ function tang01() {
 function tang02() {
     window.open("./tujian_tang02.html")
 }//眼镜蛇枯叶螳
+
+function xj01() {
+    window.open("./tujian_xj01.html")
+}//索恩象鼻虫
+
+function jj01() {
+    window.open("./tujian_qiaoChiMu_jj01.html")
+}//狭茎甲
+
+function xiu01() {
+    window.open("./tujian_xiu01.html")
+}//艾瑞克叶脩
+
+function xiu02() {
+    window.open("./tujian_xiu02.html")
+}//虎翼巨人竹节虫
+
+function jd01() {
+    window.open("./tujian_qiaoChiMu_jd01.html")
+}//彩虹锥齿吉丁
+
+
+
+
+
+
+
+function low_01() {
+    window.open("./other_low_01.html")
+}//入侵物种相关法律条文
 
 
 
