@@ -19,6 +19,14 @@ function index_tujian() {
     window.location.href = ("./index_tujian.html")
 }//页面跳转 昆虫图鉴
 
+function tujian_niaoLei() {
+    window, location.href = ("./index_tujian_niaoLei.html")
+}//页面跳转 鸟类图鉴
+
+function tujian_zhiWu() {
+    window, location.href = ("./index_tujian_zhiWu.html")
+}//页面跳转 植物图鉴
+
 function index_fenLei() {
     window.location.href = ("./index_fenLei.html")
 }//页面跳转 分类知识
@@ -79,6 +87,15 @@ function js01() {
 function js02() {
     window.open("./ebook_js02.html")
 }//锋利的jquery
+
+function js03() {
+    window.open("./ebook_js03.html")
+}//条路编程
+
+function stable() {
+    window.open("./ebook_stable_diffusion.html")
+}//stable diffusion
+
 
 function tang01() {
     window.open("./tujian_tang01.html")
