@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <script type="text/javascript" src="../js/index.js"></script>
+
+</head>
+
+<body>
+    <div class="head">条路编程</div>
+    <div class="head2"></div>
+    <div class="con"></div>
+    <div class="cebian1">
+        <img src="../img/logo.jpg">
+        <p>尧彩新</p>
+        <ul>
+            <li onclick="index()">首页</li>
+            <li onclick="index_drawing()">绘画作品</li>
+            <li onclick="index_breed()">昆虫饲养</li>
+            <li onclick="index_tujian()">昆虫图鉴</li>
+            <li onclick="index_list()">各类名录</li>
+            <li onclick="index_fenLei()">分类知识</li>
+
+            <li onclick="index_duShuBiJi()">读书笔记</li>
+            <li onclick="index_other()">其他</li>
+        </ul>
+    </div>
+    <div class="cebian2_p">
+        <p class="h1">基础JavaScript</p>
+        <p class="h2">求余运算</p>
+        <p class="h3">% 返回两个数相除得到的余数</p>
+        <p class="h3">17 % 2 = 1（17 是奇数）</p>
+        <p class="h3">48 % 2 = 0（48 是偶数）</p>
+
+        <p class="h2">+= 复合赋值</p>
+        <p class="h3">i = i + 5 等价于 i += 5</p>
+
+        <p class="h2">-= 复合赋值</p>
+        <p class="h3">i = i - 5 等价于 i -= 5</p>
+
+        <p class="h2">*= 复合赋值</p>
+        <p class="h3">i = i * 5 等价于 i *= 5</p>
+
+        <p class="h2">%=</p>
+        <p class="h3">i = i / 5 等价于 i /= 5</p>
+
+        <p class="h2">转义字符串</p>
+        <p class="h3">单引号和双引号的功能在 JavaScript 中是相同的</p>
+        <p class="h3">\' 单引号</p>
+        <p class="h3">\" 双引号</p>
+        <p class="h3">\\ 反斜杠</p>
+        <p class="h3">\n 换行符</p>
+        <p class="h3">\r 回车符</p>
+        <p class="h3">\t 制表符</p>
+        <p class="h3">\b 退格</p>
+        <p class="h3">\f 换页符</p>
+
+        <p class="h2">查找字符串的长度</p>
+        <p class="h3">你可以通过在字符串变量或字符串后面写上 .length 来获得 String 的长度。</p>
+        <p class="h3">"Peter".length;</p>
+
+        <p class="h2">使用方括号查找字符串中的第一个字符</p>
+        <p class="h3">const firstName = "Charles";</p>
+        <p class="h3">const firstLetter = firstName[0];</p>
+        <p class="h3">firstLetter 值为字符串 C 。</p>
+
+        <p class="h2">了解字符串的不变性</p>
+        <p class="h3">字符串（String）的值是不可变的（immutable），这意味着一旦字符串被创建就不能被改变。</p>
+        <p class="h3">改变 myStr 的唯一方法是重新给它赋一个值</p>
+
+        <p class="h2">使用方括号查找字符串中的最后一个字符</p>
+        <p class="h3">firstname[firstname.length - 1</p>
+
+        <p class="h2">使用方括号查找字符串中的倒数第 N 个字符</p>
+        <p class="h3">firstName[firstName.length - N]</p>
+
+        <p class="h2">使用 JavaScript 数组将多个值存储在一个变量中</p>
+        <p class="h3">const sandwich = ["peanut butter", "jelly", "bread"];</p>
+
+        <p class="h2">将一个数组嵌套在另一个数组中</p>
+        <p class="h3">const teams = [["Bulls", 23], ["White Sox", 45]];</p>
+
+        <p class="h2">通过索引访问数组中的数据</p>
+        <p class="h3">const array = [50, 60, 70];</p>
+        <p class="h3">const data = array[1];</p>
+
+        <p class="h2">通过索引修改数组中的数据</p>
+        <p class="h3">const ourArray = [50, 40, 30];</p>
+        <p class="h3">ourArray[0] = 15;</p>
+
+        <p class="h2">使用索引访问多维数组</p>
+        <p class="h3">const arr = [
+            [1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9],
+            [[10, 11, 12], 13, 14]
+            ];</p>
+        <p class="h3">arr[3][0][1] 为 11</p>
+
+        <p class="h2">使用 push() 操作数组</p>
+        <p class="h3">.push() 接受一个或多个参数（parameters），并把它压入到数组的末尾。</p>
+        <p class="h3">const arr1 = [1, 2, 3];</p>
+        <p class="h3">arr1.push(4);</p>
+        <p class="h3">arr1 现在值为 [1, 2, 3, 4]</p>
+
+        <p class="h2">使用 pop() 操作数组</p>
+        <p class="h3">.pop() 函数用来弹出一个数组末尾的值。 我们可以把这个弹出的值赋给一个变量存储起来。</p>
+        <p class="h3">const threeArr = [1, 4, 6];</p>
+        <p class="h3">const oneDown = threeArr.pop();</p>
+        <p class="h3">console.log(oneDown);</p>
+        <p class="h3">console.log(threeArr);</p>
+        <p class="h3">第一个 console.log 将显示值 6，第二个将显示值 [1, 4]。</p>
+
+        <p class="h2">使用 shift() 操作数组</p>
+        <p class="h3">.shift() 函数用来弹出一个数组末尾的值。 我们可以把这个弹出的值赋给一个变量存储起来。</p>
+
+        <p class="h2">使用 unshift() 操作数组</p>
+        <p class="h3">.unshift() 移入一个元素到数组的头部</p>
+
+        <p class="h2"></p>
+        <p class="h3"></p>
+        <p class="h3"></p>
+        <p class="h3"></p>
+        <p class="h3"></p>
+
+
+        <p class="h1"></p>
+        <p class="h2"></p>
+        <p class="h3"></p>
+        <p class="h4"></p>
+
+
+
+
+
+
+
+        </ul>
+    </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
