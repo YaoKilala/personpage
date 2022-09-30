@@ -14,119 +14,104 @@
 <body>
     <div class="head">昆虫饲养</div>
     <div class="head2"></div>
-    <div class="cebian1">
-        <img src="../img/logo.jpg">
-        <p>尧彩新</p>
-        <ul>
-            <li onclick="index()">首页</li>
-            <li onclick="index_drawing()">绘画作品</li>
-            <li onclick="index_breed()">昆虫饲养</li>
-            <li onclick="index_tujian()">昆虫图鉴</li>
-            <li onclick="index_list()">各类名录</li>
-            <li onclick="index_fenLei()">分类知识</li>
+    <div class="con">
+        <iframe src="./cebian1.html" width="14%" height="900px" frameborder="no"></iframe>
+        <div class="cebian_key">
+            <div class="h1 center">鞘翅目</div>
+            <div class="qita1 center">
+                <button class="breed_button">饲育名词</button>
+                <button class="breed_button">饲养容器</button>
+                <button class="breed_button">拌土/换土</button>
+                <button class="breed_button" onclick="muXie()">自制木屑配方</button>
 
-            <li onclick="index_duShuBiJi()">读书笔记</li>
-            <li onclick="index_other()">其他</li>
-        </ul>
-    </div>
-    <div class="cebian2">
+            </div>
+            <div class="xiaobiaoti">大兜</div>
+            <ul>
+                <li>
+                    <p class="tuJianZWM">南洋大兜</p>
+                    <p class="tuJianXueMing"></p>
 
-        <div class="biaoti">鞘翅目</div>
-        <div class="qita1">
-            <button>饲育名词</button>
-            <button>饲养容器</button>
-            <button>拌土/换土</button>
-            <button onclick="muXie()">自制木屑配方</button>
+                </li>
+                <li>
+                    <p class="tuJianZWM">长戟大兜</p>
+                    <p class="tuJianXueMing"></p>
+                </li>
+                <li>
+                    <p class="tuJianZWM">毛象大兜</p>
+                    <p class="tuJianXueMing"></p>
+                </li>
+            </ul>
+            <div class="xiaobiaoti">锹甲</div>
+            <ul>
+                <li>
+                    <p class="tuJianZWM">美他力佛细身赤锹</p>
+                    <p class="tuJianXueMing"></p>
+                </li>
+                <li>
+                    <p class="tuJianZWM">巴拉望巨扁</p>
+                    <p class="tuJianXueMing"></p>
+                </li>
 
-        </div>
-        <div class="xiaobiaoti">大兜</div>
-        <ul>
-            <li>
-                <p>南洋大兜</p>
-            </li>
-            <li>
-                <p>长戟大兜</p>
-            </li>
-            <li>
-                <p>毛象大兜</p>
-            </li>
-            <li>
-                <p>海神大兜</p>
-            </li>
-            <li>
-                <p>
-                    白兜
-                </p>
-            </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <div class="xiaobiaoti">锹甲</div>
-        <ul>
-            <li>
-                <p>美他利佛细身锹甲</p>
-            </li>
-            <li>
-                <p>巴拉望巨扁</p>
-            </li>
-            <li>
-                <p>
-                    中扁
-                </p>
-            </li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <div class="biaoti">螳螂目</div>
-        <div class="qita1">
-            <button>饲育名词</button>
-            <button>饲养容器</button>
-            <button>饲料</button>
-            <button>蜕皮</button>
-            <button>繁殖</button>
-        </div>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <div class="biaoti">鳞翅目</div>
-        <div class="qita1">
+            </ul>
+            <div class="h1 center">螳螂目</div>
+            <div class="qita1 center">
+                <button class="breed_button">饲育名词</button>
+                <button class="breed_button">饲养容器</button>
+                <button class="breed_button">饲料</button>
+                <button class="breed_button">蜕皮</button>
+                <button class="breed_button">繁殖</button>
+            </div>
+            <ul>
+                <li>
+                    <p class="tuJianZWM">圆盾</p>
+                    <p class="tuJianXueMing"></p>
+                </li>
+                <li>
+                    <p class="tuJianZWM">大魔花</p>
+                    <p class="tuJianXueMing"></p>
+                </li>
+                <li>
+                    <p class="tuJianZWM">云南亚叶螳</p>
+                    <p class="tuJianXueMing"></p>
+                </li>
+                <li>
+                    <p class="tuJianZWM"></p>
+                    <p class="tuJianXueMing"></p>
+                </li>
+            </ul>
+            <div class="h1 center">鳞翅目</div>
+            <ul>
+                <li onclick="morpho()">
+                    <p class="tuJianZWM">大蓝闪蝶</p>
+                    <p class="tuJianXueMing"></p>
+                </li>
+                <li onclick="jinBanDie()">
+                    <p class="tuJianZWM">金斑蝶</p>
+                    <p class="tuJianXueMing"></p>
+                </li>
+            </ul>
 
-        </div>
-        <ul>
-            <li onclick="morpho()">
-                <p>大蓝闪</p>
-            </li>
-            <li onclick="jinBanDie()">金斑蝶</li>
-            <li></li>
-            <li></li>
-        </ul>
-
-        <div class="biaoti">脩目</div>
-        <div class="qita1">
-            <button>饲育名词</button>
-            <button>饲养容器</button>
-            <button>饲料</button>
-            <button>蜕皮</button>
-            <button>繁殖</button>
+            <div class="h1 center">䗛目</div>
+            <div class="qita1 center">
+                <button class="breed_button">饲育名词</button>
+                <button class="breed_button">饲养容器</button>
+                <button class="breed_button">饲料</button>
+                <button class="breed_button">蜕皮</button>
+                <button class="breed_button">繁殖</button>
+            </div>
             <ul>
                 <li onclick="hongYiQingLong()">
-                    <p>红翼青龙</p>
+                    <p class="tuJianZWM">红翼青龙</p>
+                    <p class="tuJianXueMing"></p>
                 </li>
                 <li></li>
                 <li></li>
                 <li></li>
             </ul>
+
+
+
         </div>
-
-
     </div>
 
 </body>
